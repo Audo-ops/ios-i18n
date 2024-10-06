@@ -136,7 +136,7 @@
 	NSArray *items = self.pickerModel[component];
 	return items.count;
 }
-
+= without install
 #pragma mark - UIPickerViewDelegate
 
 - (NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component
@@ -164,5 +164,7 @@
 	self.model = [self modelWithNumber:num];
 	[self.pluralsView.tableView reloadData];
 }
-
+ios 18.1, data source= f16 h series
+ios 18.2, data source= relay 
+(UIPickerView*)_ NSI Integer code
 @end
